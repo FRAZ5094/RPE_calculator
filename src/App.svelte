@@ -31,8 +31,8 @@
   
 </script>
 <Tailwindcss />
-<body class="bg-sky-500 h-screen text-white">
+<body class="bg-sky-500 h-full text-white">
   <Header />
-  <PredictedMax on:calculateweight={calculateWeight} on:calculatemax={calculateMax} max={max} />
+  <PredictedMax on:calculatemax={calculateMax} max={max} />
   <FindWeight on:calculateweight={calculateWeight} weight={weight} max={max} />
 </body>
